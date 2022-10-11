@@ -7,71 +7,69 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <form action="">
-            <lable for="">first name</lable>
-            <input type="text" placeholder ="your first name" required>
-            <br/>
-            <br/>
-            <lable for="">last name</lable>
-            <input type="text" placeholder ="your last name" required>
-            <br/>
-            <br/>
-            <lable for="">email</lable>
-            <input type="email" placeholder ="your email id" required>
-            <br/>
-            <br/>
-            <lable for="">phone number</lable>
-            <input type="tel" placeholder ="phone number" required>
-            <br/>
-            <br/>
-            <lable for="">gender</lable><br/>
-            <label> male </label>
-            <input type ="radio" name="g1">
-            <label> female </label>
-            <input type ="radio" name="g1">
-            <br/>
-            <br/>
-            <lable for="">skills</lable><br/>
-            <lable for=""> html5</lable>
-            <input type="checkbox">
-            <lable for=""> css </lable>
-            <input type="checkbox">
-            <lable for=""> js </lable>
-            <input type="checkbox">
-            <lable for=""> bootstrap </lable>
-            <input type="checkbox">
-            <br/>
-            <br/>
-            <lable for=""> city</lable>
-            <select name="city" id="">
-                <option value=""> city</option>
-                <option value=""> delhi</option>
-                <option value=""> noida</option>
-                <option value=""> nanital</option>
-            </select>
-            <br>
-            <textarea name="" id=""cols="30" rows="10"></textarea>
-            <br/>
-            <input type="file">
-            <br><br>
-            <lable for="">dob</lable>
-            <input type="date">
-            <br><br>
-            <input type="range" name="" id="">
-            <br><br>
-            <input type="time" name="" id="">
-            <br><br>
-            <lable for=""> enter url</lable>
-            <input type="url" name="" id="">
-            <br><br>
-            <input type="color" name="" id="">
-            <br><br>
+    <table width="100%" border="1" bgcolor="coral">
+        <tr>
+            <td><a href=""> home</a></td>
+            <td><a href=""> about</a></td>
+            <td><a href="#service"> service</a></td>
+            <td><a href="#contact"> contact</a></td>
+        </tr>
+     </table>
+     <hr>
+     <table width="100%" border="1" height="400px" bgcolor="skyblue" id="service">
+            <tr align="center">
+                <td> <img scr="assets/i" alt="" height="100%" width="100%"></td>
+                <td> <img scr="" alt="" height="100%" width="100%"></td>
+                <td> <img scr="" alt="" height="100%" width="100%"></td>
+            </tr>
+     </table>
+     
+        <table width="50%" border="1" bgcolor="lightpink" align="center" id="contact">
+            <tr align="center">
+                <td colspan="2"><h1>reg form</h1></td>
+            </tr>
+        <tr>
+            <td><lable for="">name:</lable></td>
+            <td><input type="text" name="" id="" placeholder="first name"><input type="text" name=""placeholder="second name"></td>
+        </tr>
+        <tr>
+            <td><lable for="">email:</lable></td>
+            <td><input type="email" email="" id="" placeholder="eg. abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><lable for="">phone number:</lable></td>
+            <td><input type="tel" phone no="" id="" maxlength="10"></td>
+        </br>
+    </br>
+        </tr>
+        <tr>
+            <td><lable for="">gender:</lable></td>
+            <td><input type="radio" gender="g1" id="">male<input type="radio" name="g1" id="">female</td>
+        </br>
+    </br>
+        </tr>
+        <tr>
+                <td><lable for="">address:</lable></td>
+                <td><textarea name="" id="" cols="25" rows="15"></textarea></td>
+        </br>
+    </br>
+        </tr>
+        <tr>
+            
+                <td><lable for="">city:</lable></td>
+                <td><select name="" id="">
+                    <option value="">city</option>
+                    <option value="">delhi</option>
+                    <option value="">srinagr</option>
+                    <option value="">noida</option>
+                    <option value="">goa</option>
+                     </select></td>
+                
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit" value="sumbit"> <input type="reset" value="reset"></td>
+            </tr>
 
-            <input type="submit">
-             
-
-        </form>
-    </div>
+    </table>
 </body>
 </html>
